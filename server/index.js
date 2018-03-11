@@ -51,6 +51,7 @@ function handleReceive(req, res) {
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.setHeader('Access-Control-Allow-Methods', 'HEAD, GET, POST, OPTIONS');
 	res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
+	res.setHeader('Content-Type', 'text/plain');
 
 	if (req.method !== 'POST') {
 		res.writeHead(200);
