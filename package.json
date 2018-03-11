@@ -1,0 +1,13 @@
+{
+  "name": "py-logging-receiver",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:jose-pleonasm/py-logging-receiver.git",
+  "author": "jose-pleonasm",
+  "license": "MIT",
+  "keywords": [
+    "py-logging",
+    "debug",
+    "debugger"
+  ],
+}
