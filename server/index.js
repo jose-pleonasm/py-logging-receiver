@@ -85,7 +85,7 @@ function handleReceive(req, res) {
 
 		storage.add(record);
 		Printer.fixedPrint(storage.getLength());
-		end();
+		end(204, '');
 	});
 
 	function end(status = 200, data = 'OK') {
